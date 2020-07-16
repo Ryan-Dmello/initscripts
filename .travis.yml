@@ -1,6 +1,6 @@
 # Run in fast container-based environment:
 sudo: false
-dist: trusty
+dist: focal
 arch:
   - ppc64le
 git:
