@@ -10,7 +10,7 @@ git:
 before_install:
   - sudo apt-get update
   - sudo apt-get install apt-transport-https
-  - echo "deb https://kdudka.fedorapeople.org/csbuild trusty contrib" | sudo tee -a /etc/apt/sources.list
+  - echo "deb https://kdudka.fedorapeople.org/csbuild focal contrib" | sudo tee -a /etc/apt/sources.list
   - sudo apt-get update
 
 install:
